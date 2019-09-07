@@ -3,18 +3,22 @@
   color: white;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #282c34;
 }
 
 .app {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.search {
+  font-size: 24px;
+  padding: 8px 12px;
+  border: solid grey 1px;
+  border-radius: 4px;
 }
